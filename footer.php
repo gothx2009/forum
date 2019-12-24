@@ -1,5 +1,5 @@
 </div><!-- content -->  
 </div><!-- wrapper -->  
-<div id="footer"><center>Programmed by Rob Damminger - v1.0.2</center></div>  
+<div id="footer"><center>useful links like about us, careers, etc.</center></div>  
 </body>  
 </html> 
