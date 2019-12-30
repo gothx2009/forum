@@ -5,7 +5,7 @@
 file:  activate.php
 purpose: for use by site administrator to activate registered accounts
 Prevents spam accounts , bots etc.  When someone registers their account
-is inactive unit this script is run
+it is inactive until admin activates.
 
 ******************************************/
 
@@ -37,7 +37,7 @@ $result=mysql_query($sql);
 else
 {
 echo 'You are not an admin.  This incident has been reported.';
-
+/* todo: write code that will email admin mailing list of possible attempted access to restricted content */
 }
 
 include 'footer.php';
