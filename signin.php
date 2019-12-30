@@ -9,6 +9,7 @@ include 'header.php';
 
 echo '<h3>Sign in</h3>';  
 
+ /* review this, it looks redundant */ 
 if(isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true)  
 {  
   echo 'You are already signed in, you can <a href="signout.php">sign out</a> if you want.';  
